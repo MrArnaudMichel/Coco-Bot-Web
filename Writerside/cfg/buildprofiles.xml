@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <shortcuts>
+        <src>keymap.xml</src>
+        <layout name="Windows" display-name="Windows"/>
+        <layout name="Linux" display-name="Linux"/>
+        <layout name="macOS" display-name="macOS"/>
+    </shortcuts>
+
+    <variables>
+        <primary-color>aqua</primary-color>
+        <custom-favicons>CocoBotLogo.png</custom-favicons>
+        <header-logo>CocoBotLogo.png</header-logo>
+        <product-web-url>https://github.com/MrArnaudMichel/Coco-Bot</product-web-url>
+        <download-title>Get CocoBot</download-title>
+        <download-page>https://github.com/MrArnaudMichel/Coco-Bot/archive/refs/tags/Alpha.zip</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+
+    <build-profile instance="c">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <offline-docs>false</offline-docs>
+        </variables>
+    </build-profile>
+
+    <footer>
+        <copyright>Cocobot 2024</copyright>
+        <social type="blog" href="https://github.com/MrArnaudMichel/Coco-Bot"></social>
+        <link href="https://discord.gg/rBNqek3msc">Discord</link>
+    </footer>
+
+</buildprofiles>

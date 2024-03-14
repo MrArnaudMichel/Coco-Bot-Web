@@ -1,0 +1,33 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#24AFD0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="built-on" content="2024-03-14T03:55:36.592791901"><title>Configuration | CocoBot</title><script type="application/json" id="virtual-toc-data">[{"id":"configuration-file","level":0,"title":"Configuration File","anchor":"#configuration-file"},{"id":"configuration-options","level":0,"title":"Configuration Options","anchor":"#configuration-options"},{"id":"exemple","level":0,"title":"Exemple","anchor":"#exemple"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b224/app.css" rel="stylesheet"><link rel="icon" type="image/png" sizes="16x16" href="images/CocoBotLogo.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Configuration | CocoBot"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="CocoBot Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/c/1.0/configuration.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Configuration | CocoBot"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/c/1.0/configuration.html#webpage",
+    "url": "writerside-documentation/c/1.0/configuration.html",
+    "name": "Configuration | CocoBot",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/c/#website",
+    "url": "writerside-documentation/c/",
+    "name": "CocoBot Help"
+}</script><!-- End Schema.org --></head><body data-id="Configuration" data-main-title="Configuration" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Documentation.md|Documentation"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>CocoBot 1.0 Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Configuration" id="Configuration.md">Configuration</h1><p id="c8r9d8_609">The configuration file is a JSON file that contains all the <span class="control" id="c8r9d8_610">settings</span> for the video generation.</p><section class="chapter"><h2 id="configuration-file" data-toc="configuration-file">Configuration File</h2><p id="c8r9d8_611">The configuration file is named <code class="code" id="c8r9d8_612">config.json</code> and is located in the config directory of the project. It is a JSON file that contains all the settings for the video generation.</p></section><section class="chapter"><h2 id="configuration-options" data-toc="configuration-options">Configuration Options</h2><p id="c8r9d8_613">The following options are available in the configuration file:</p><ul class="list _bullet" id="c8r9d8_614"><li class="list__item" id="c8r9d8_615"><p><code class="code" id="c8r9d8_616">assembly_ai_api_key</code>: The API key for the AssemblyAI service.</p></li><li class="list__item" id="c8r9d8_617"><p><code class="code" id="c8r9d8_618">font</code>: The path to the font file to use for the text overlay.</p></li><li class="list__item" id="c8r9d8_619"><p><code class="code" id="c8r9d8_620">font_size</code>: The size of the font to use for the text overlay.</p></li><li class="list__item" id="c8r9d8_621"><p><code class="code" id="c8r9d8_622">font_color</code>: The color of the font to use for the text overlay.</p></li><li class="list__item" id="c8r9d8_623"><p><code class="code" id="c8r9d8_624">font_background_color</code>: The background color of the font to use for the text overlay.</p></li><li class="list__item" id="c8r9d8_625"><p><code class="code" id="c8r9d8_626">threads</code>: The number of threads to use for the video generation.</p></li><li class="list__item" id="c8r9d8_627"><p><code class="code" id="c8r9d8_628">transcribe</code>: Whether to transcribe the audio of the video.</p></li><li class="list__item" id="c8r9d8_629"><p><code class="code" id="c8r9d8_630">satisfying</code>: The path to the satisfying video to use for the video generation.</p></li><li class="list__item" id="c8r9d8_631"><p><code class="code" id="c8r9d8_632">music</code>: The path to the music to use for the video generation.</p></li><li class="list__item" id="c8r9d8_633"><p><code class="code" id="c8r9d8_634">music_volume</code>: The volume of the music to use for the video generation.</p></li><li class="list__item" id="c8r9d8_635"><p><code class="code" id="c8r9d8_636">width</code>: The width of the video to generate.</p></li><li class="list__item" id="c8r9d8_637"><p><code class="code" id="c8r9d8_638">height</code>: The height of the video to generate.</p></li><li class="list__item" id="c8r9d8_639"><p><code class="code" id="c8r9d8_640">fps</code>: The frames per second of the video to generate.</p></li></ul></section><section class="chapter"><h2 id="exemple" data-toc="exemple">Exemple</h2><div class="code-block" data-lang="json">
+{
+  &quot;assembly_ai_api_key&quot;: &quot;fe8W5....gV5pO&quot;,
+  &quot;font&quot;: &quot;assets/fonts/LeagueSpartan-Bold.ttf&quot;,
+  &quot;font_size&quot;: 24,
+  &quot;font_color&quot;: &quot;white&quot;,
+  &quot;font_background_color&quot;: &quot;black&quot;,
+  &quot;threads&quot;: 8,
+
+  &quot;transcribe&quot;: true,
+  &quot;satisfying&quot;: &quot;&quot;,
+  &quot;music&quot;: &quot;&quot;,
+  &quot;music_volume&quot;: 0.5,
+  &quot;width&quot;: 540,
+  &quot;height&quot;: 960,
+  &quot;fps&quot;: 24
+}
+</div></section><div class="last-modified">Last modified: 14 mars 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="documentation.html" class="navigation-links__prev">Documentation</a><a href="youtube.html" class="navigation-links__next">YouTube Shorts Automater</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="app.js"></script></body></html>
