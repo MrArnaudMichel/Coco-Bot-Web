@@ -13,8 +13,8 @@
         <custom-favicons>CocoBotLogo.png</custom-favicons>
         <header-logo>CocoBotLogo.png</header-logo>
         <product-web-url>https://github.com/MrArnaudMichel/Coco-Bot</product-web-url>
-        <download-title>Get CocoBot</download-title>
-        <download-page>https://github.com/MrArnaudMichel/Coco-Bot/archive/refs/tags/Alpha.zip</download-page>
+        <download-title>Download CocoBot</download-title>
+        <download-page>https://github.com/MrArnaudMichel/Coco-Bot/archive/refs/tags/Pre-release.zip</download-page>
         <showDownloadButton>true</showDownloadButton>
     </variables>
 
