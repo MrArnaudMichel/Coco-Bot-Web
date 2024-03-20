@@ -19,9 +19,12 @@ You also need to have a **AssemblyAI API key**. You can get one by signing up on
             <li>Run the following command to clone the CocoBot repository:
                 <p><pre><code>git clone git@github.com:MrArnaudMichel/Coco-Bot.git</code></pre></p>
             </li>
+            <li>Go to the `Coco-Bot` directory:
+                <p><pre><code language="bash">cd Coco-Bot</code></pre></p>
+            </li>
             <li>
                 Copy the `config.example.json` file to `config.json` and edit it to match your configuration and preferences.
-                <p><pre><code>copy config.example.json config.json</code></pre></p>
+                <p><pre><code>copy config/config.example.json config/config.json</code></pre></p>
             </li>
             <li>
                 Create a virtual environment
@@ -41,7 +44,8 @@ You also need to have a **AssemblyAI API key**. You can get one by signing up on
             <def title="All the commands" collapsible="true" default-state="collapsed">
                 <code-block lang="bash">
                     git clone git@github.com:MrArnaudMichel/Coco-Bot.git
-                    copy config.example.json config.json
+                    cd Coco-Bot
+                    copy config/config.example.json config/config.json
                     python -m venv venv
                     .\venv\Scripts\activate
                     pip install -r requirements.txt
@@ -58,9 +62,12 @@ You also need to have a **AssemblyAI API key**. You can get one by signing up on
             <li>Run the following command to clone the CocoBot repository:
                 <p><pre><code>git clone git@github.com:MrArnaudMichel/Coco-Bot.git</code></pre></p>
             </li>
+            <li>Go to the `Coco-Bot` directory:
+                <p><pre><code language="bash">cd Coco-Bot</code></pre></p>
+            </li>
             <li>
                 Copy the `config.example.json` file to `config.json` and edit it to match your configuration and preferences.
-                <p><pre><code>cp config.example.json config.json</code></pre></p>
+                <p><pre><code>cp config/config.example.json config/config.json</code></pre></p>
             </li>
             <li>
                 Create a virtual environment
@@ -80,7 +87,8 @@ You also need to have a **AssemblyAI API key**. You can get one by signing up on
             <def title="All the commands" collapsible="true" default-state="collapsed">
                 <code-block lang="bash">
                     git clone git@github.com:MrArnaudMichel/Coco-Bot.git
-                    cp config.example.json config.json
+                    cd Coco-Bot
+                    cp config/config.example.json config/config.json
                     python3 -m venv venv
                     source venv/bin/activate
                     pip install -r requirements.txt
@@ -97,9 +105,12 @@ You also need to have a **AssemblyAI API key**. You can get one by signing up on
             <li>Run the following command to clone the CocoBot repository:
                 <p><pre><code>git clone git@github.com:MrArnaudMichel/Coco-Bot.git</code></pre></p>
             </li>
+            <li>Go to the `Coco-Bot` directory:
+                <p><pre><code language="bash">cd Coco-Bot</code></pre></p>
+            </li>
             <li>
                 Copy the `config.example.json` file to `config.json` and edit it to match your configuration and preferences.
-                <p><pre><code>cp config.example.json config.json</code></pre></p>
+                <p><pre><code>cp config/config.example.json config/config.json</code></pre></p>
             </li>
             <li>
                 Create a virtual environment
@@ -119,7 +130,8 @@ You also need to have a **AssemblyAI API key**. You can get one by signing up on
             <def title="All the commands" collapsible="true" default-state="collapsed">
                 <code-block lang="bash">
                     git clone git@github.com:MrArnaudMichel/Coco-Bot.git
-                    cp config.example.json config.json
+                    cd Coco-Bot                    
+                    cp config/config.example.json config/config.json
                     python3 -m venv venv
                     source venv/bin/activate
                     pip install -r requirements.txt

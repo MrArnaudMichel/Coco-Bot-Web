@@ -42,4 +42,4 @@ CocoBot has extensive documentation available to help you get started with CocoB
 
 ## License
 
-CocoBot is licensed under the MIT License. This means that you can use it for free, modify it, and distribute it. However, you must include the original license and copyright notice in any copy of the software. For more information, visit the [license page](License.md)
+%product% is licensed under the MIT License. This means that you can use it for free, modify it, and distribute it. However, you must include the original license and copyright notice in any copy of the software. For more information, visit the [license page](License.md)
