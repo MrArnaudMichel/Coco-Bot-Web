@@ -14,6 +14,7 @@ CocoBot is a **bot** that can be used to **make videos** for Youtube Shorts, Tik
 CocoBot is a cross-platform bot, meaning it can be used on Windows, Mac, and Linux. It can also be used on mobile devices, but it is not optimized for mobile devices. It is recommended to use CocoBot on a computer.
 : For more information, visit the [install page](Installation.md)
 
+
 ## Documentation
 
 CocoBot has extensive documentation available to help you get started with CocoBot. The documentation includes installation instructions, usage instructions, and a list of available commands. For more information, visit the [documentation page](Documentation.md)

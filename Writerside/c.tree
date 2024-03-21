@@ -17,8 +17,8 @@
     <toc-element topic="Versions.md">
         <toc-element topic="CocoBotPlus.md"/>
         <toc-element topic="CocoBotPremium.md"/>
-        <toc-element topic="Contributing.md"/>
     </toc-element>
+    <toc-element topic="Contributing.md"/>
     <toc-element topic="RoadMap.md"/>
     <toc-element topic="cocobot.md"/>
     <toc-element topic="License.md"/>
