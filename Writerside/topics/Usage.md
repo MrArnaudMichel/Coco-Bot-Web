@@ -11,6 +11,10 @@ If you haven't installed %product% yet, you need to install it before you can us
 
 ## 3. Getting Started
 
+Before you start using %product%, make sure you have installed it correctly and have all the necessary dependencies installed.
+You will also need to set your AssemblyAI API key in the `config.json` file. You can get an API key by signing up on the [AssemblyAI website](https://www.assemblyai.com/). If you don't have an API key, you won't be able to use the transcription feature of %product%.
+
+
 To get started with %product%, follow these steps:
 
 1. Open a terminal or command prompt.

@@ -23,16 +23,15 @@ CocoBot has extensive documentation available to help you get started with CocoB
 
 ###### Project Leaders
 
-- Léo Kiefner
-- Téo Walter
+- [Léo Kiefner](https://github.com/LeoKiefner)
 
 ###### Developer
 
-- Arnaud Michel
+- [Arnaud Michel](https://github.com/MrArnaudMichel)
 
 ###### Hosting
 
-- Klebert-Host
+- [Klebert-Host](http://klebert-host.com/)
 
 ###### Community
 
